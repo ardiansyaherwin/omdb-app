@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBar /> should render as expected 1`] = `
+<MovieCard
+  classes={
+    Object {
+      "expand": "MovieCard-expand-3",
+      "expandOpen": "MovieCard-expandOpen-4",
+      "media": "MovieCard-media-2",
+      "root": "MovieCard-root-1",
+    }
+  }
+  fullPoster={null}
+  imdbId="1234"
+  lightbox={false}
+  poster="http://image.com/image.jpg"
+  title="Movie Title"
+  type="Movie"
+  year="2020"
+/>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LightBox /> should render as expected 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  aria-labelledby="customized-dialog-title"
+  onClose={[Function]}
+  open={false}
+>
+  <WithStyles(ForwardRef(DialogContent))
+    dividers={true}
+  >
+    <img
+      alt=""
+      src="http://image.com/image.jpg"
+    />
+    <WithStyles(ForwardRef(IconButton))
+      aria-label="close"
+      onClick={[Function]}
+    >
+      <CloseIcon />
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(DialogContent))>
+</WithStyles(ForwardRef(Dialog))>
+`;

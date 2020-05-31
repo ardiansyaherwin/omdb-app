@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBar /> should render as expected 1`] = `
+<SearchBar
+  classes={
+    Object {
+      "clearIcon": "SearchBar-clearIcon-8",
+      "grow": "SearchBar-grow-1",
+      "helperText": "SearchBar-helperText-6",
+      "inputInput": "SearchBar-inputInput-5",
+      "inputRoot": "SearchBar-inputRoot-4",
+      "progress": "SearchBar-progress-7",
+      "search": "SearchBar-search-2",
+      "searchIcon": "SearchBar-searchIcon-3",
+    }
+  }
+  loading={false}
+  minimumLength={1}
+  onSubmit={[MockFunction]}
+  placeholder="Search here..."
+  value=""
+/>
+`;

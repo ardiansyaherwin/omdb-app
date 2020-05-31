@@ -16,7 +16,7 @@ import styles from "./SearchBar-jss";
 const SearchBar = (props) => {
   const { classes, onSubmit, minimumLength, loading, placeholder, value } = props;
   const [searchBarState, setSearchBarState] = useState({
-    error: false,
+    error: value.length < minimumLength,
     value: value,
   });
 
@@ -107,7 +107,6 @@ SearchBar.propTypes = {
 };
 
 SearchBar.defaultProps = {
-  onSubmit: () => {},
   loading: false,
   minimumLength: 1,
   placeholder: "Search here...",
