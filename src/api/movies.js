@@ -2,7 +2,7 @@ import axios from "axios";
 
 const MoviesApi = () => {
   const instance = axios.create({
-    baseURL: "http://www.omdbapi.com",
+    baseURL: "https://www.omdbapi.com",
     timeout: 30000,
     headers: {},
   });
