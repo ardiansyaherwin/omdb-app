@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7444e95f1b33685b459c2f19314e606",
+    "revision": "c4889c9ff7b60eac40c3f528c45ea83d",
     "url": "/omdb-app/index.html"
   },
   {
-    "revision": "eafda82e6a5dc11631dc",
+    "revision": "ad7f192503535e1c6a31",
     "url": "/omdb-app/static/css/main.23cbe39f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/omdb-app/static/js/2.f2dbc23f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eafda82e6a5dc11631dc",
-    "url": "/omdb-app/static/js/main.8513e104.chunk.js"
+    "revision": "ad7f192503535e1c6a31",
+    "url": "/omdb-app/static/js/main.5c0a98d8.chunk.js"
   },
   {
     "revision": "2f8599061314ff6b7b91",
